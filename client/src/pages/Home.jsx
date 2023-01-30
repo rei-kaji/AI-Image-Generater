@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Card, FormField, Loader } from "../components/index";
 
-const hostUrl = "http://localhost:8080";
+const hostUrl = "https://ai-image-generator-8u1r.onrender.com";
 
 const RenderCards = ({ data, title }) => {
   if (data?.length > 0) {

@@ -4,7 +4,7 @@ import { preview } from "../assets";
 import { getRandomPrompt } from "../utils";
 import { FormField, Loader } from "../components";
 
-const hostUrl = "http://localhost:8080";
+const hostUrl = "https://ai-image-generator-8u1r.onrender.com";
 
 const CreatePost = () => {
   const navigate = useNavigate();
